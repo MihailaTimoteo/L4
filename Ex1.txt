@@ -1,0 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+void main() {
+	float a, b, c;
+	printf("Introduceti trei numere reale:");
+	scanf("%f %f %f", &a, &b, %c);
+	float d = (a + b + c) / 3;
+	printf("Media aritmetica este: %f", d);
+}

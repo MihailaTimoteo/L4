@@ -1,0 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+void main() {
+	int a, b;
+	printf("Introduceti doi numere intregi:");
+	scanf("%i %i", &a, &b);
+	float d = (a * b) / 2;
+	printf("Media geometrica este: %f", d);
+}

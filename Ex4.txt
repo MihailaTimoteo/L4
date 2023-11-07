@@ -1,0 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+    char a, b, c;
+    printf("Introduceti 3 caractere: ");
+    scanf("%c %c %c", &a, &b, &c);
+    printf("%c %c %c", a, b, c);
+}

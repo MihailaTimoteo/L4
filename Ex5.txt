@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+    char input[100];
+    int age;
+
+    printf("Introduceti un text de forma 'eu am X ani.': ");
+    fgets(input, sizeof(input), stdin);
+    if (sscanf(input, "eu am %d ani", &age) == 1) {
+        printf("Varsta: %d", age);
+    }
+}

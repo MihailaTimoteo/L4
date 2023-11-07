@@ -1,0 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+void main() {
+	int a = 1, b = 1.5, c = 2;
+	float d = 1 / a + 1 / b + 1 / c;
+	printf("rezultatul opera?iei 1/a+1/b+1/c este+: %f", d);
+}

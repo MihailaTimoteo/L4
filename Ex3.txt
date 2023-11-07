@@ -1,0 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+void main(){
+	int a = 5;
+	int b = -3;
+	int c =-1;
+	int d = a + b + c;
+	printf("suma lor este %i", d);
+	}
